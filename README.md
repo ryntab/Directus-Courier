@@ -34,12 +34,14 @@ This extension was made for sending notifications with Directus & Courier. Since
 | Brands API| ❌ Not Supported |
 | Events API| ❌ Not Supported |
 
+##Authentication
+Requests made by unauthenticated users will be rejected. Requests must be made with a cookie or bearer token.
 
 
 ## Sending Notifications
 An example `POST` request made to `https://directusAppDomain/courier{or custom path}/`
 In this example we are using an AWS SES channel to send an PDF attachment with courier overrides.
-```
+```JSON
 {
  "brand": "**********************************",
  "eventId": "**********************************",
