@@ -1,4 +1,5 @@
 
+
 # Directus Courier 💬
 An extension for sending multi-channel notifications with courier. 
 > Disclaimer: this is currently not intended for a production environment.
@@ -34,7 +35,7 @@ This extension was made for sending notifications with Directus & Courier. Since
 | Brands API| ❌ Not Supported |
 | Events API| ❌ Not Supported |
 
-##Authentication
+## Authentication
 Requests made by unauthenticated users will be rejected. Requests must be made with a cookie or bearer token.
 
 
