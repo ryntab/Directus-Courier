@@ -13,10 +13,6 @@ An extension for sending multi-channel notifications with courier.
 - Create a folder in your directus endpoints folder named `courier` or an alternate route name.
 - Move the `index.js` build file to your new folder  `directus/extensions/courier/index.js`
 - Include your Courier authentication token in your Directus .env file.
-```
-## Courier
-AUTH_KEY="dk_prod_************************"
-```
 - Start your Directus instance `npx directus start`
 
 ## API Reference
