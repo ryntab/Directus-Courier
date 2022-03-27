@@ -2,7 +2,7 @@
 
 # Directus Courier 💬
 An extension for sending multi-channel notifications with courier. 
-> Disclaimer: this is currently not intended for a production environment.
+> Disclaimer: this is currently not intended for a production environment. In most cases mailerService can be used for action based emails.
 
 ## Installation
 - Download or fork the repository
